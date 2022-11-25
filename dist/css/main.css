@@ -622,10 +622,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
 .block{
   display: block;
 }
@@ -723,13 +719,13 @@ video {
   max-width: 120px;
 }
 
+.max-w-\[480px\]{
+  max-width: 480px;
+}
+
 .max-w-fit{
   max-width: -moz-fit-content;
   max-width: fit-content;
-}
-
-.max-w-\[60\%\]{
-  max-width: 60%;
 }
 
 .origin-top{
@@ -779,6 +775,10 @@ video {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -825,10 +825,6 @@ video {
 
 .gap-3{
   gap: 0.75rem;
-}
-
-.gap-11{
-  gap: 2.75rem;
 }
 
 .gap-y-4{
@@ -958,8 +954,8 @@ video {
   background-image: url('../../public/images/header-text-bg.png');
 }
 
-.bg-\[url\(\'\.\.\/images\/program-pattern\.png\'\)\]{
-  background-image: url('../images/program-pattern.png');
+.bg-\[url\(\'\.\.\/\.\.\/public\/images\/program-pattern\.png\'\)\]{
+  background-image: url('../../public/images/program-pattern.png');
 }
 
 .bg-cover{
@@ -1348,6 +1344,11 @@ video {
     top: 2rem;
   }
 
+  .md\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1388,6 +1389,10 @@ video {
     min-width: 704px;
   }
 
+  .md\:max-w-full{
+    max-width: 100%;
+  }
+
   .md\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
@@ -1426,6 +1431,10 @@ video {
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-11{
+    gap: 2.75rem;
   }
 
   .md\:bg-white{

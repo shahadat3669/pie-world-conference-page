@@ -9,43 +9,43 @@ const speakersList = [
     id: 0,
     imgUrl: './public/images/speaker-1.jpg',
     author: 'Kaium Uddin',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
   {
     id: 1,
     imgUrl: './public/images/speaker-2.jpg',
     author: 'Mohima Rahman',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
   {
     id: 2,
     imgUrl: './public/images/speaker-3.jpg',
     author: 'Monir Hossain',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
   {
     id: 3,
     imgUrl: './public/images/speaker-4.jpg',
     author: 'Sharif Khan',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
   {
     id: 4,
     imgUrl: './public/images/speaker-5.jpg',
     author: 'Nusrath Jahan',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
   {
     id: 5,
     imgUrl: './public/images/speaker-6.jpg',
     author: 'Esrath Jahan',
-    position: 'Cras volutpat, massa id vel, diam magna',
-    desc: 'Maecenas vel lorem interdum, fermentum quam vel, posuere ante.',
+    position: 'massa id vel, diam magna',
+    desc: 'Maecenas fermentum quam vel, posuere ante.',
   },
 ];
 
@@ -59,7 +59,7 @@ const generateSpeakers = (n = 2) => {
   for (let i = 0; i < n; i += 1) {
     cardsHtmlGenerator += `
   <!-- speakers card ${speakersList[i].id} -->
-  <div class="speakers-card relative mt-10 flex items-center gap-4">
+  <div class="speakers-card relative grid grid-cols-3 items-center gap-4">
     <div class="speakers-card-img-wrapper relative flex max-w-fit items-center justify-end">
       <img
         src="${speakersList[i].imgUrl}"
@@ -72,11 +72,11 @@ const generateSpeakers = (n = 2) => {
         class="absolute -top-[20%] right-[50%] -z-10 w-[40%]"
       />
     </div>
-    <div class="speakers-card-content flex max-w-[60%] flex-col gap-3">
-      <h3 class="speakers-card-title text-2xl font-bold text-heavy-metal">
+    <div class="speakers-card-content flex col-span-2  flex-col gap-2">
+      <h3 class="speakers-card-title text-xl font-bold text-metal-grey">
         ${speakersList[i].author}
       </h3>
-      <p class="speakers-card-subtitle l font-medium italic leading-6 tracking-wide text-coral-red">
+      <p class="speakers-card-subtitle italic leading-6 tracking-wide text-coral-red">
         ${speakersList[i].position}
       </p>
       <hr class="h-[2px] w-7 bg-metal-grey bg-opacity-60" />
