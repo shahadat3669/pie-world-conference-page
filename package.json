@@ -1,0 +1,50 @@
+{
+  "name": "pie-world-conference-page",
+  "version": "1.0.0",
+  "description": "Conference page: Microverse HTML/CSS &amp; JavaScript capstone project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "npx eslint .",
+    "stylelint": "npx stylelint '**/*.{css,scss}'",
+    "dev": "npx tailwindcss -i ./dist/tailwind-css/input.css -o ./dist/css/main.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.3",
+    "postcss": "^8.4.19",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahadat3669/pie-world-conference-page.git"
+  },
+  "keywords": [
+    "conference",
+    "landing",
+    "page",
+    "conference",
+    "page",
+    "html",
+    "css",
+    "javascript",
+    "microverse",
+    "project"
+  ],
+  "author": "Shahadat Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahadat3669/pie-world-conference-page/issues"
+  },
+  "homepage": "https://github.com/shahadat3669/pie-world-conference-page#readme"
+}
