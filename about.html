@@ -17,6 +17,249 @@
     />
   </head>
   <body>
+    <!-- header section  -->
+    <header
+      class="header relative h-full bg-[url('../../public/images/header-bg.jpg')] bg-cover bg-no-repeat"
+    >
+      <!-- header top  -->
+      <div class="header-top hidden bg-metal text-white md:flex">
+        <div
+          class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:flex md:w-10/12 md:flex-row-reverse"
+        >
+          <a href="#">Logout</a>
+          <a href="#">My page</a>
+          <a href="#">English</a>
+          <a href="https://www.facebook.com/shahadat3669/">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="facebook">
+                <path
+                  id="icon"
+                  d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865V5.865Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="twitter-icon">
+                <path
+                  id="twitter_2"
+                  d="M22 5.90704C21.2504 6.23442 20.4565 6.44908 19.644 6.54404C20.4968 6.04327 21.138 5.24915 21.448 4.31004C20.64 4.78037 19.7587 5.11164 18.841 5.29004C18.4545 4.88525 17.9897 4.56343 17.4748 4.34422C16.9598 4.12501 16.4056 4.01301 15.846 4.01504C13.58 4.01504 11.743 5.82504 11.743 8.05504C11.743 8.37104 11.779 8.68004 11.849 8.97504C10.2236 8.89774 8.63212 8.48245 7.17617 7.75568C5.72022 7.02891 4.43176 6.00662 3.393 4.75404C3.02883 5.36844 2.83742 6.06982 2.839 6.78404C2.8397 7.45201 3.00683 8.10927 3.32529 8.69644C3.64375 9.2836 4.1035 9.78215 4.663 10.147C4.01248 10.126 3.37602 9.95237 2.805 9.64004V9.69004C2.805 11.648 4.22 13.281 6.095 13.653C5.74261 13.7465 5.37958 13.7939 5.015 13.794C4.75 13.794 4.493 13.769 4.242 13.719C4.51008 14.527 5.02311 15.2314 5.70982 15.7344C6.39653 16.2374 7.22284 16.5141 8.074 16.526C6.61407 17.6506 4.82182 18.2581 2.979 18.253C2.647 18.253 2.321 18.233 2 18.197C3.88125 19.3877 6.06259 20.0183 8.289 20.015C15.836 20.015 19.962 13.858 19.962 8.51904L19.948 7.99604C20.7529 7.42971 21.4481 6.72189 22 5.90704V5.90704Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- navigation menu  -->
+      <nav
+        class="navbar relative h-full bg-transparent md:bg-white md:shadow-sm"
+      >
+        <div
+          class="navbar-inner mx-auto flex items-center justify-between gap-4 px-4 py-3 md:w-10/12"
+        >
+          <!-- logo  -->
+          <a
+            href="/"
+            class="logo hidden items-center gap-2 leading-6 transition-all hover:text-coral-red md:flex"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="logo-icon"
+            >
+              <circle cx="20" cy="20" r="20" fill="#EE523C" />
+              <path
+                d="M8.12822 20.6239C8.12822 19.9151 8.70282 19.3405 9.41162 19.3405H23.7661C24.4749 19.3405 25.0495 19.9151 25.0495 20.6239C25.0495 21.3328 24.4749 21.9074 23.7661 21.9074H9.41163C8.70282 21.9074 8.12822 21.3328 8.12822 20.6239Z"
+                fill="white"
+              />
+              <path
+                d="M9.13087 19.3405C9.82312 19.3405 10.3843 19.9017 10.3843 20.594L10.3843 34.5798C10.3843 35.272 9.82312 35.8332 9.13087 35.8332C8.43862 35.8332 7.87744 35.272 7.87744 34.5798L7.87744 20.594C7.87744 19.9017 8.43862 19.3405 9.13087 19.3405Z"
+                fill="white"
+              />
+              <path
+                d="M25.0495 20.6239C25.0495 22.0416 23.9274 23.1908 22.5429 23.1908C21.1584 23.1908 20.036 22.0416 20.036 20.6239C20.036 19.2063 21.1584 18.0571 22.5429 18.0571C23.9274 18.0571 25.0495 19.2063 25.0495 20.6239Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M13.2471 27.6513C13.4176 27.6631 13.5898 27.6691 13.7634 27.6691H21.6116C25.6609 27.6691 28.9434 24.4188 28.9434 20.4094V19.7959C28.9434 15.7864 25.6609 12.5361 21.6116 12.5361H13.7634C13.5898 12.5361 13.4176 12.5421 13.2471 12.5539V14.6059C13.4169 14.5895 13.5892 14.5811 13.7634 14.5811H21.6116C24.5202 14.5811 26.8781 16.9158 26.8781 19.7959V20.4094C26.8781 23.2894 24.5202 25.6241 21.6116 25.6241H13.7634C13.5892 25.6241 13.4169 25.6157 13.2471 25.5993V27.6513Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M14.1915 4.09963C14.2251 5.8827 13.3293 6.84705 12.4849 7.32976C11.6634 7.79942 10.4436 7.99072 8.99672 7.11308C8.28719 7.71497 7.62853 8.37397 7.028 9.08288C7.92575 10.5912 7.63785 11.8535 7.15498 12.6816C6.68324 13.4906 5.73141 14.2562 4.05248 14.2215C3.7407 15.0876 3.4988 15.9866 3.3335 16.9117C4.51798 17.5812 5.01438 18.4732 5.17673 19.2846H7.21722C7.51737 12.5459 13.1299 7.17387 20.0095 7.17387C27.0815 7.17387 32.8144 12.8504 32.8144 19.8528C32.8144 26.8552 27.0815 32.5318 20.0095 32.5318C18.9558 32.5318 17.9318 32.4057 16.952 32.1681H11.9469C12.2118 32.2484 12.4516 32.3571 12.6633 32.4782C13.491 32.9513 14.2736 33.9123 14.2168 35.6153C15.0782 35.9257 15.9723 36.1689 16.8926 36.3384C17.7641 34.7662 19.0313 34.3722 20.0092 34.3722C20.9749 34.3722 22.1523 34.8264 22.964 36.3675C23.8775 36.2084 24.7657 35.9767 25.6224 35.6788C25.5628 33.8492 26.4713 32.8652 27.3271 32.376C28.1711 31.8935 29.4352 31.7048 30.9341 32.6668C31.6298 32.0847 32.2774 31.4481 32.8703 30.7636C31.868 29.193 32.1586 27.8778 32.6564 27.024C33.147 26.1827 34.1568 25.3883 35.9635 25.4921C36.2652 24.6552 36.5017 23.7876 36.6669 22.8954C34.9862 22.0314 34.5698 20.741 34.5698 19.7506C34.5698 18.7787 35.0436 17.5903 36.6623 16.7856C36.4958 15.8937 36.258 15.0265 35.955 14.19C34.0647 14.273 33.0532 13.362 32.5532 12.5046C32.0649 11.6671 31.8745 10.4116 32.8536 8.92296C32.2597 8.23927 31.611 7.60353 30.9143 7.02241C29.3328 8.007 28.0084 7.71945 27.1481 7.2276C26.3088 6.7478 25.5158 5.76638 25.5975 4.01827C24.7403 3.72171 23.8517 3.49146 22.9379 3.33374C22.0658 4.9338 20.7876 5.33334 19.8029 5.33334C18.8443 5.33334 17.6772 4.88595 16.8662 3.37222C15.9462 3.54318 15.0525 3.78779 14.1915 4.09963Z"
+                fill="white"
+              />
+            </svg>
+            <span class="logo-text w-max">
+              <span class="logo-text1 block text-2xl font-bold tracking-wider"
+                >Pie World</span
+              >
+              <span class="logo-text2 leading-3">Conference 2022</span></span
+            >
+          </a>
+          <div class="relative flex items-center justify-center">
+            <button
+              id="hamburger-button"
+              class="bg relative h-10 cursor-pointer md:hidden"
+            >
+              <div
+                class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-heavy-metal transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:bg-heavy-metal before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:bg-heavy-metal after:transition-all after:duration-500 after:content-['']"
+              ></div>
+            </button>
+            <ul
+              class="hidden items-center gap-9 gap-y-4 text-xl md:flex md:flex-wrap"
+              aria-label="main"
+            >
+              <li class="hover:text-coral-red hover:opacity-90">
+                <a href="./index.html" class=""> Home </a>
+              </li>
+              <li class="text-coral-red hover:text-coral-red hover:opacity-90">
+                <a href="./about.html" class=""> About </a>
+              </li>
+              <li class="hover:text-coral-red hover:opacity-90">
+                <a href="#" class=""> Program </a>
+              </li>
+              <li class="hover:text-coral-red hover:opacity-90">
+                <a href="#" class=""> Sponsor </a>
+              </li>
+              <li class="hover:text-coral-red hover:opacity-90">
+                <a href="#" class=""> Contact </a>
+              </li>
+              <li
+                class="border-2 border-coral-red py-2 px-4 transition-all hover:bg-coral-red hover:text-white hover:opacity-90"
+              >
+                <a href="#" class=""> Join Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        id="mobile-menu"
+        class="absolute top-0 z-50 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white"
+      >
+        <button class="self-start">X</button>
+        <div
+          class="flex h-screen-94h flex-col items-center gap-4 py-8"
+          aria-label="mobile-menu"
+        >
+          <a href="/" class="w-full px-4 text-center hover:opacity-70">Home</a>
+          <a
+            href="./about.html"
+            class="w-full px-4 text-center hover:opacity-70"
+            >About</a
+          >
+          <a href="#" class="w-full px-4 text-center hover:opacity-70"
+            >Program</a
+          >
+          <a href="#" class="w-full px-4 text-center hover:opacity-70">Join</a>
+          <a href="#" class="w-full px-4 text-center hover:opacity-70"
+            >Sponsor</a
+          >
+          <a href="#" class="w-full px-4 text-center hover:opacity-70">News</a>
+        </div>
+      </div>
+      <nav
+        class="bg-grey-light hidden w-11/12 justify-end py-4 px-4 text-right text-metal-grey md:flex"
+      >
+        <ol class="list-reset flex">
+          <li>
+            <a href="/" class="transition-all hover:text-coral-red">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-angle-right mx-2 text-base text-coral-red"
+            ></i>
+          </li>
+          <li>
+            <a href="./about.html" class="transition-all hover:text-coral-red"
+              >About</a
+            >
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-angle-right mx-2 text-base text-coral-red"
+            ></i>
+          </li>
+          <li class="cursor-pointer">Details</li>
+        </ol>
+      </nav>
+      <div
+        class="hero-area mx-auto flex flex-col items-center justify-center gap-12 px-4 py-28 text-metal-grey md:w-10/12"
+      >
+        <p class="text-2xl font-medium text-coral-red md:hidden">
+          "Hello! Sharing world"
+        </p>
+        <h1
+          class="relative max-w-[848px] text-center text-4xl font-bold uppercase text-coral-red after:absolute after:left-[calc(50%-48px/2)] after:-bottom-8 after:hidden after:h-[2px] after:w-12 after:bg-coral-red md:w-10/12 md:min-w-[608px] md:text-6xl md:after:block"
+        >
+          Eurasia Research Global conference 2022
+        </h1>
+        <div class="relative w-10/12 text-center">
+          <p
+            class="relative z-20 mt-4 border-4 border-coral-grey bg-white p-4 text-center md:min-w-[608px]"
+          >
+            The Global Summit brings together the community of experts,
+            academics and activists who comprise the Creative Commons affiliate
+            network in a different country every two years. <br />
+            <span class="hidden md:block">
+              This year, we hope to expand our invitation list including
+              organizations and individuals who want to work with us on shared
+              projects that advance the cause of the Commons, free culture and
+              open knowledge.
+              <br />
+              So if you're active and engaged in the worlds of open content and
+              knowledge - free software advocates, Wikipedia, Open Knowledge,
+              galleries, libraries, museums, archives, governments and
+              foundations, lawers and activities - we hove you'll consider
+              joining us this year to build a stronger more vibrant commons
+              together.
+            </span>
+          </p>
+          <img
+            src="./public/images/circle-pattern.svg"
+            alt="circle pattern"
+            class="absolute -top-4 left-8 z-10 h-1/3 md:-left-12 md:top-8"
+          />
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-center">
+            Please contact us per Email for any further questions about CC
+            Global Summit 2022!
+          </p>
+          <a
+            href="#"
+            class="text-center text-xl font-medium underline transition-all hover:text-coral-red"
+          >
+            shahadat3669@gmail.com
+            <i class="fa-solid fa-angle-right ml-2 text-base"></i>
+          </a>
+        </div>
+      </div>
+    </header>
     <script src="./public/js/main.js"></script>
   </body>
 </html>
