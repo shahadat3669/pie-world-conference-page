@@ -2,17 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conference Home Page: Microverse capstone project</title>
-    <link rel="icon" type="image/x-icon" href="./public/images/favicon.ico" />
-    <link rel="stylesheet" href="./dist/css/main.css" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Pie World Conference: Microverse capstone project</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./public/images/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="./dist/css/main.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <meta
+      name="title"
+      property="og:title"
+      content="Pie World Conference: Microverse capstone project"
+    />
+    <meta
+      name="author"
+      content="Shahadat Hossain"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="This is my first capstone project in Microverse Coding School. Which is built with HTML, CSS & JavaScript. Here I learn to show the speakers dynamically by using JavaScript."
+    />
+    <meta
+      name="image"
+      property="og:image"
+      content="./public/images/preview.png"
     />
   </head>
   <body class="min-h-screen overflow-x-hidden">
@@ -21,7 +53,7 @@
       class="header relative h-full bg-[url('../../public/images/header-bg.jpg')] bg-cover bg-no-repeat"
     >
       <!-- header top  -->
-      <nav class="header-top hidden bg-metal text-white md:flex">
+      <div class="header-top hidden bg-metal text-white md:flex">
         <div
           class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:flex md:w-10/12 md:flex-row-reverse"
         >
@@ -63,7 +95,7 @@
             </svg>
           </a>
         </div>
-      </nav>
+      </div>
       <!-- navigation menu  -->
       <nav
         class="navbar relative h-full bg-transparent md:bg-white md:shadow-sm"
@@ -84,7 +116,12 @@
               xmlns="http://www.w3.org/2000/svg"
               class="logo-icon"
             >
-              <circle cx="20" cy="20" r="20" fill="#EE523C" />
+              <circle
+                cx="20"
+                cy="20"
+                r="20"
+                fill="#EE523C"
+              />
               <path
                 d="M8.12822 20.6239C8.12822 19.9151 8.70282 19.3405 9.41162 19.3405H23.7661C24.4749 19.3405 25.0495 19.9151 25.0495 20.6239C25.0495 21.3328 24.4749 21.9074 23.7661 21.9074H9.41163C8.70282 21.9074 8.12822 21.3328 8.12822 20.6239Z"
                 fill="white"
@@ -131,24 +168,54 @@
               aria-label="main"
             >
               <li class="text-coral-red hover:text-coral-red hover:opacity-90">
-                <a href="./index.html" class=""> Home </a>
+                <a
+                  href="./index.html"
+                  class=""
+                >
+                  Home
+                </a>
               </li>
               <li class="hover:text-coral-red hover:opacity-90">
-                <a href="./about.html" class=""> About </a>
+                <a
+                  href="./about.html"
+                  class=""
+                >
+                  About
+                </a>
               </li>
               <li class="hover:text-coral-red hover:opacity-90">
-                <a href="#" class=""> Program </a>
+                <a
+                  href="#"
+                  class=""
+                >
+                  Program
+                </a>
               </li>
               <li class="hover:text-coral-red hover:opacity-90">
-                <a href="#" class=""> Sponsor </a>
+                <a
+                  href="#"
+                  class=""
+                >
+                  Sponsor
+                </a>
               </li>
               <li class="hover:text-coral-red hover:opacity-90">
-                <a href="#" class=""> Contact </a>
+                <a
+                  href="#"
+                  class=""
+                >
+                  Contact
+                </a>
               </li>
               <li
                 class="border-2 border-coral-red py-2 px-4 transition-all hover:bg-coral-red hover:text-white hover:opacity-90"
               >
-                <a href="#" class=""> Join Us </a>
+                <a
+                  href="#"
+                  class=""
+                >
+                  Join Us
+                </a>
               </li>
             </ul>
           </div>
@@ -163,20 +230,36 @@
           class="flex h-screen-94h flex-col items-center gap-4 py-8"
           aria-label="mobile-menu"
         >
-          <a href="/" class="w-full px-4 text-center hover:opacity-70">Home</a>
+          <a
+            href="/"
+            class="w-full px-4 text-center hover:opacity-70"
+            >Home</a
+          >
           <a
             href="./about.html"
             class="w-full px-4 text-center hover:opacity-70"
             >About</a
           >
-          <a href="#" class="w-full px-4 text-center hover:opacity-70"
+          <a
+            href="#"
+            class="w-full px-4 text-center hover:opacity-70"
             >Program</a
           >
-          <a href="#" class="w-full px-4 text-center hover:opacity-70">Join</a>
-          <a href="#" class="w-full px-4 text-center hover:opacity-70"
+          <a
+            href="#"
+            class="w-full px-4 text-center hover:opacity-70"
+            >Join</a
+          >
+          <a
+            href="#"
+            class="w-full px-4 text-center hover:opacity-70"
             >Sponsor</a
           >
-          <a href="#" class="w-full px-4 text-center hover:opacity-70">News</a>
+          <a
+            href="#"
+            class="w-full px-4 text-center hover:opacity-70"
+            >News</a
+          >
         </div>
       </div>
 
@@ -210,7 +293,7 @@
     <!-- main program section  -->
     <section
       id="program"
-      class="relative bg-[#282B32] bg-[url('../../public/images/program-pattern.png')]"
+      class="relative bg-[#282B32] bg-[url('../images/program-pattern.png')]"
     >
       <div
         class="program-container mx-auto py-8 px-4 md:w-10/12 md:min-w-[704px]"
@@ -329,7 +412,7 @@
         Featured Speakers
       </h2>
       <div
-        class="grid w-full max-w-[480px] grid-cols-1 gap-4 px-6 md:my-20 md:max-w-full md:grid-cols-2 md:gap-11"
+        class="grid w-full grid-cols-1 gap-11 px-6 md:grid-cols-2"
         id="speakers-card-container"
       ></div>
       <button
@@ -354,30 +437,48 @@
         class="partners-items-container mt-5 flex w-3/4 items-center justify-center gap-4"
       >
         <div class="partners-img-container">
-          <img src="./public/images/partner-mozilla.png" alt="mozilla" />
+          <img
+            src="./public/images/partner-mozilla.png"
+            alt="mozilla"
+          />
         </div>
         <div class="partners-img-container">
-          <img src="./public/images/partner-google.png" alt="google" />
+          <img
+            src="./public/images/partner-google.png"
+            alt="google"
+          />
         </div>
         <div class="partners-img-container">
-          <img src="./public/images/partner-naver.png" alt="naver" />
+          <img
+            src="./public/images/partner-naver.png"
+            alt="naver"
+          />
         </div>
         <div class="partners-img-container">
-          <img src="./public/images/partner-daumkakao.png" alt="daumkakao" />
+          <img
+            src="./public/images/partner-daumkakao.png"
+            alt="daumkakao"
+          />
         </div>
         <div class="partners-img-container">
-          <img src="./public/images/partner-airbnb.png" alt="airbnb" />
+          <img
+            src="./public/images/partner-airbnb.png"
+            alt="airbnb"
+          />
         </div>
       </div>
     </section>
     <!-- footer section  -->
     <footer
-      class="hidden flex-col items-center border-t bg-white p-4 text-heavy-metal md:flex"
+      class="flex flex-col items-center border-t bg-white p-4 text-heavy-metal"
     >
       <div
         class="flex w-full flex-col items-center justify-center gap-8 self-start px-4 md:flex-row md:justify-between md:px-12"
       >
-        <a href="/" class="logo flex items-center gap-2 leading-6">
+        <a
+          href="/"
+          class="logo flex items-center gap-2 leading-6"
+        >
           <svg
             width="40"
             height="40"
@@ -386,7 +487,12 @@
             xmlns="http://www.w3.org/2000/svg"
             class="logo-icon"
           >
-            <circle cx="20" cy="20" r="20" fill="#EE523C" />
+            <circle
+              cx="20"
+              cy="20"
+              r="20"
+              fill="#EE523C"
+            />
             <path
               d="M8.12822 20.6239C8.12822 19.9151 8.70282 19.3405 9.41162 19.3405H23.7661C24.4749 19.3405 25.0495 19.9151 25.0495 20.6239C25.0495 21.3328 24.4749 21.9074 23.7661 21.9074H9.41163C8.70282 21.9074 8.12822 21.3328 8.12822 20.6239Z"
               fill="white"
@@ -421,16 +527,32 @@
         </a>
         <ul class="flex gap-4 text-metal-grey">
           <li>
-            <a href="#" class="hover:underline">About</a>
+            <a
+              href="#"
+              class="hover:underline"
+              >About</a
+            >
           </li>
           <li>
-            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a
+              href="#"
+              class="hover:underline"
+              >Privacy Policy</a
+            >
           </li>
           <li>
-            <a href="#" class="hover:underline">Licensing</a>
+            <a
+              href="#"
+              class="hover:underline"
+              >Licensing</a
+            >
           </li>
           <li>
-            <a href="#" class="hover:underline">Contact</a>
+            <a
+              href="#"
+              class="hover:underline"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
